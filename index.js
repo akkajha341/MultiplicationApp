@@ -18,6 +18,7 @@ formEl.addEventListener("submit",()=>{
    if(userAns === correctAns)
    {
       score++;
+      
       updateLocalStorage()
    }
    else
